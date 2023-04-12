@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WatchOutEmergencyLib" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+<!--        <item name="colorPrimary">@color/material_on_background_emphasis_medium</item>-->
+        <item name="colorPrimaryVariant">#FFBB86FC</item>
+        <item name="colorOnPrimary">#FFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF03DAC5</item>
+        <item name="colorSecondaryVariant">#FF018786</item>
+        <item name="colorOnSecondary">#FF000000</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
+
