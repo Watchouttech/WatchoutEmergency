@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-   package="com.example.watchoutemergency">
+    package="com.example.watchoutemergency"
+    >
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:usesCleartextTraffic="true"
-        android:allowBackup="true"
-        android:fullBackupContent="@xml/backup_rules"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.WatchOutEmergencyLib"
-       >
+        >
+
+<!--        this used in manifest-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+
+
+
+
+<!--        // this code  use in application  to show matrial buuton -->
+<!--       android:usesCleartextTraffic="true"-->
+<!--        android:allowBackup="true"-->
+<!--        android:fullBackupContent="@xml/backup_rules"-->
+<!--        android:supportsRtl="true"-->
+<!--        android:theme="@style/Theme.WatchOutEmergencyLib"-->
+<!--        tools:targetApi="31"-->
+
         <activity
             android:name=".Controller.WatchOutEmergency"
             android:exported="false">
